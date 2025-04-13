@@ -1,0 +1,11 @@
+{
+  "appName": {
+      "message": "ArchLinux Search"
+  },
+  "appShortName": {
+    "message": "AL Search"
+  },
+  "appDesc": {
+      "message": "Adds ArchLinux websites as search engines."
+  }
+}

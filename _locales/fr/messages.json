@@ -1,0 +1,14 @@
+{
+  "appName" : {
+    "message" : "ArchLinux : Moteurs de recherche",
+    "description" : "Le titre de l'extension, affiché dans la boutique en ligne"
+  },
+  "appShortName": {
+    "message": "AL Recherche",
+    "description": "Nom court généralement utilisé lorsque l'espace disponible est insuffisant pour afficher le nom complet."
+  },
+  "appDesc" : {
+    "message" : "Ajoute les sites web d'ArchLinux comme moteurs de recherche.",
+    "description" : "La brève description de l'extension, affichée dans la boutique en ligne"
+  }
+}
