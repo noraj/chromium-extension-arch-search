@@ -13,21 +13,21 @@ Available search engines:
 
 name                                | shortcut   | stricness   | description                                                            | search example
 ------------------------------------|------------|-------------|------------------------------------------------------------------------|---------------
-ArchLinux Packages                  | `pkgs`     | lax         | Search for official ArchLinux packages                                 | `al` + <kbd>Space\|Tab</kbd> + `pkgs;linux-zen`
-ArchLinux Wiki                      | `wiki`     | lax         | Search a term on ArchLinux Wiki                                        | `al` + <kbd>Space\|Tab</kbd> + `;`
-ArchLinux User Repository (AUR)     | `aur`      | lax         | Search for AUR packages                                                | `al` + <kbd>Space\|Tab</kbd> + `;`
-ArchLinux Bugtracker (one package)  | `bugs`     | exact match | List all issues for the requested package                              | `al` + <kbd>Space\|Tab</kbd> + `;`
-ArchLinux Bugtracker (global)       | `bugsg`    | lax         | Search a term among all packages' issues                               | `al` + <kbd>Space\|Tab</kbd> + `;`
-ArchLinux Manual Page               | `man`      | lax         | Search ArchLinux munual pages                                          | `al` + <kbd>Space\|Tab</kbd> + `;`
-ArchLinux Vulnerabilities (package) | `vuln`     | exact match | List security vulnerabilities for the requested package                | `al` + <kbd>Space\|Tab</kbd> + `;`
-ArchLinux PKGBUILD                  | `pkgbuild` | exact match | Display the PKGBUILD (from ArchLinux Gitlab) for the requested package | `al` + <kbd>Space\|Tab</kbd> + `;`
-ArchLinux Gitlab project            | `proj`     | lax         | Search for ArchLinux packages' project on Gitlab                       | `al` + <kbd>Space\|Tab</kbd> + `;`
-ArchLinux Code                      | `code`     | lax         | Search a term in the code of ArchLinux packages' source                | `al` + <kbd>Space\|Tab</kbd> + `;`
-ArchLinux Forum (by author)         | `foruma`   | lax         | Search ArchLinux forum post by author pseudonym                        | `al` + <kbd>Space\|Tab</kbd> + `;`
-ArchLinux Forum (by keywords)       | `forumk`   | lax         | Search ArchLinux forum post by keyword                                 | `al` + <kbd>Space\|Tab</kbd> + `;`
-ArchLinux CVE                       | `cve`      | exact match | Go to a CVE id page impacting ArchLinux                                | `al` + <kbd>Space\|Tab</kbd> + `;`
-ArchLinux AVG                       | `avg`      | exact match | Go to an AVG (ArchLinux Vulnerability Group) id page                   | `al` + <kbd>Space\|Tab</kbd> + `;`
-ArchLinux ASA                       | `asa`      | exact match | Go to an ASA (ArchLinux Security Advisory) id page                     | `al` + <kbd>Space\|Tab</kbd> + `;`
+ArchLinux Packages                  | `pkgs`     | lax         | Search for official ArchLinux packages                                 | `al` + <kbd>Space\|Tab</kbd> + `pkgs;ruby`
+ArchLinux Wiki                      | `wiki`     | lax         | Search a term on ArchLinux Wiki                                        | `al` + <kbd>Space\|Tab</kbd> + `wiki;rosetta`
+ArchLinux User Repository (AUR)     | `aur`      | lax         | Search for AUR packages                                                | `al` + <kbd>Space\|Tab</kbd> + `aur;nessus`
+ArchLinux Bugtracker (one package)  | `bugs`     | exact match | List all issues for the requested package                              | `al` + <kbd>Space\|Tab</kbd> + `bugs;linux-lts`
+ArchLinux Bugtracker (global)       | `bugsg`    | lax         | Search a term among all packages' issues                               | `al` + <kbd>Space\|Tab</kbd> + `bugsg;displayport`
+ArchLinux Manual Page               | `man`      | lax         | Search ArchLinux munual pages                                          | `al` + <kbd>Space\|Tab</kbd> + `man;tldr`
+ArchLinux Vulnerabilities (package) | `vuln`     | exact match | List security vulnerabilities for the requested package                | `al` + <kbd>Space\|Tab</kbd> + `vuln;openssh`
+ArchLinux PKGBUILD                  | `pkgbuild` | exact match | Display the PKGBUILD (from ArchLinux Gitlab) for the requested package | `al` + <kbd>Space\|Tab</kbd> + `pkgbuild;metasploit`
+ArchLinux Gitlab project            | `proj`     | lax         | Search for ArchLinux packages' project on Gitlab                       | `al` + <kbd>Space\|Tab</kbd> + `proj;sqlmap`
+ArchLinux Code                      | `code`     | lax         | Search a term in the code of ArchLinux packages' source                | `al` + <kbd>Space\|Tab</kbd> + `code;libxml`
+ArchLinux Forum (by author)         | `foruma`   | lax         | Search ArchLinux forum post by author pseudonym                        | `al` + <kbd>Space\|Tab</kbd> + `foruma;noraj2`
+ArchLinux Forum (by keywords)       | `forumk`   | lax         | Search ArchLinux forum post by keyword                                 | `al` + <kbd>Space\|Tab</kbd> + `forumk;MST`
+ArchLinux CVE                       | `cve`      | exact match | Go to a CVE id page impacting ArchLinux                                | `al` + <kbd>Space\|Tab</kbd> + `cve;CVE-2021-38371`
+ArchLinux AVG                       | `avg`      | exact match | Go to an AVG (ArchLinux Vulnerability Group) id page                   | `al` + <kbd>Space\|Tab</kbd> + `avg;AVG-2843`
+ArchLinux ASA                       | `asa`      | exact match | Go to an ASA (ArchLinux Security Advisory) id page                     | `al` + <kbd>Space\|Tab</kbd> + `asa;ASA-202403-1`
 
 > [!IMPORTANT]
 > TODO: explain lax vs exact match + add examples
