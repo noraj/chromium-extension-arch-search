@@ -3,9 +3,6 @@
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/noraj/firefox-extension-arch-search)
 ![License](https://img.shields.io/github/license/noraj/firefox-extension-arch-search)
 
-> [!IMPORTANT]
-> TODO: add Chrome web store badge + image/gif/video demo
-
 A Chromium-based browser extension that adds ArchLinux (bug tracker, forum, packages, wiki, AUR, man pages, security
 advisories, PKGBUILD) as a search engine with an [Omnibox](https://developer.chrome.com/docs/extensions/reference/api/omnibox) keyword.
 
@@ -39,18 +36,25 @@ Stricness legend:
 ## Microsoft Edge Add-ons
 
 > [!IMPORTANT]
-> WIP
+> WIP: pending review
 
 ## WebExtension.ORG
 
 > [!IMPORTANT]
 > TODO: Publish https://webextension.org, after publishing to official stores
 
+## Opera Addons
+
+> [!IMPORTANT]
+> WIP: BUG-7628, parser error for the manifest.json
+
 ### Load unpacked extension
 
 You can clone this repository (`git clone https://github.com/noraj/chromium-extension-arch-search.git`) or [download a ZIP](https://github.com/noraj/chromium-extension-arch-search/archive/refs/heads/master.zip), enable Developer mode to be able to [load the unpacked extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked).
 
-### Windows and macOS
+### Chrome Web Store, Windows and macOS
+
+The extension is not available on Chrome Web Store.
 
 For Windows and macOS, Google made it impossible to install extension from outside the [Chrome Web Store](https://chromewebstore.google.com/).
 
@@ -60,15 +64,24 @@ As it's an ArchLinux extension, the chances are low that a Windows or macOS user
 - Complain to Google and ask them an option for a third party extension marketplace
 - Change your OS to a [Linux distribution](https://distrowatch.com) and enjoy the free world
 - [Sponsor me](https://github.com/sponsors/noraj) so I can can pay Google Developer fees and publish on Chrome Web Store
+- Some Chrome-based browsers like Microsoft Edge and Opera have their own extension marketplace, so you can download it from there
 
 ## Compatibility
 
-> [!IMPORTANT]
-> TODO: check with several browsers (Google Chrome, Chromium, Vivaldi, Opera, Brave, Edge)
+Browser        | Compatible | Tested version
+---------------|------------|---------------
+Chromium       | ✅          | 135.0.7049.95
+Google Chrome  | ✅          | 135.0.7049.95
+Vivaldi        | ❌          | 7.3.3635.11
+Opera          | ✅          | 118.0.5461.41
+Brave          | ✅          | 1.77.100
+Microsoft Edge | ✅          | 135.0.3179.85
+Yandex Browser | ❌          | 25.2.1.939
+Thorium        | ✅          | 130.0.6723.174
+Cromite        | ✅          | 135.0.7049.100
+SRWare Iron    | ✅          | 131.0.6650.1
 
 ## FAQ
 
-> [!IMPORTANT]
-> TODO: answer questions
-
 - Why one Omnibus keyword + search prefix instead of multiple keywords?
+  - It's not possible to register several keywords in one extension. Users don't want to install dozens of extensions (1 per website) and it would also be very hard to maintain. So the best compromise is to use this command + splitter character approach.
