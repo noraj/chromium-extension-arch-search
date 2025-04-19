@@ -29,18 +29,42 @@ ArchLinux CVE                       | `cve`      | exact match | Go to a CVE id 
 ArchLinux AVG                       | `avg`      | exact match | Go to an AVG (ArchLinux Vulnerability Group) id page                   | `al` + <kbd>Space\|Tab</kbd> + `avg;AVG-2843`
 ArchLinux ASA                       | `asa`      | exact match | Go to an ASA (ArchLinux Security Advisory) id page                     | `al` + <kbd>Space\|Tab</kbd> + `asa;ASA-202403-1`
 
-> [!IMPORTANT]
-> TODO: explain lax vs exact match + add examples
+Stricness legend:
+
+- `lax`: means it will perform a real search so you can use incomplete terms or use several keywords
+- `exact match`: mean no search is performed, you'll be sent to the correct page only if you provide the correct term (package name, ID, etc.)
 
 ## Install
 
+## Microsoft Edge Add-ons
+
 > [!IMPORTANT]
-> TODO: Chrome Web Strore + local
+> WIP
+
+## WebExtension.ORG
+
+> [!IMPORTANT]
+> TODO: Publish https://webextension.org, after publishing to official stores
+
+### Load unpacked extension
+
+You can clone this repository (`git clone https://github.com/noraj/chromium-extension-arch-search.git`) or [download a ZIP](https://github.com/noraj/chromium-extension-arch-search/archive/refs/heads/master.zip), enable Developer mode to be able to [load the unpacked extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked).
+
+### Windows and macOS
+
+For Windows and macOS, Google made it impossible to install extension from outside the [Chrome Web Store](https://chromewebstore.google.com/).
+
+As it's an ArchLinux extension, the chances are low that a Windows or macOS user would use an extension targeting ArchLinux anyways. But if you still want to install this extension on Windows or macOS, you still have a few options:
+
+- Load unpacked extension, as explained above
+- Complain to Google and ask them an option for a third party extension marketplace
+- Change your OS to a [Linux distribution](https://distrowatch.com) and enjoy the free world
+- [Sponsor me](https://github.com/sponsors/noraj) so I can can pay Google Developer fees and publish on Chrome Web Store
 
 ## Compatibility
 
 > [!IMPORTANT]
-> TODO: check with several browsers (Google Chrome, Chromium, Vivaldi, Opera, Brave)
+> TODO: check with several browsers (Google Chrome, Chromium, Vivaldi, Opera, Brave, Edge)
 
 ## FAQ
 
