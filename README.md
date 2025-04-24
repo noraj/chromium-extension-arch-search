@@ -3,6 +3,8 @@
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/noraj/chromium-extension-arch-search)
 ![License](https://img.shields.io/github/license/noraj/chromium-extension-arch-search)
 
+[![3M8ahOB.webp](https://iili.io/3M8ahOB.webp)](https://freeimage.host/i/3M8ahOB)
+
 A Chromium-based browser extension that adds ArchLinux (bug tracker, forum, packages, wiki, AUR, man pages, security
 advisories, PKGBUILD) as a search engine with an [Omnibox](https://developer.chrome.com/docs/extensions/reference/api/omnibox) keyword.
 
