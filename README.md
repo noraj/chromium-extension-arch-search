@@ -53,6 +53,14 @@ Stricness legend:
 
 You can clone this repository (`git clone https://github.com/noraj/chromium-extension-arch-search.git`) or [download a ZIP](https://github.com/noraj/chromium-extension-arch-search/archive/refs/heads/master.zip), enable Developer mode to be able to [load the unpacked extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked).
 
+### Arch Linux
+
+From the [AUR](https://aur.archlinux.org/packages/chromium-extension-arch-search):
+
+```bash
+yay -S chromium-extension-arch-search
+```
+
 ### Chrome Web Store, Windows and macOS
 
 The extension is not available on Chrome Web Store.
