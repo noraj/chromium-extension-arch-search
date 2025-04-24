@@ -35,8 +35,7 @@ Stricness legend:
 
 ## Microsoft Edge Add-ons
 
-> [!IMPORTANT]
-> WIP: pending review
+[![Microsoft Edge Add-ons version](https://img.shields.io/badge/dynamic/json?label=MEA%20version&query=%24.version&url=https://microsoftedge.microsoft.com/addons/getproductdetailsbycrxid/pboknbkpagalhkenljledjiagddojbeg)](https://microsoftedge.microsoft.com/addons/detail/archlinux-moteurs-de-re/pboknbkpagalhkenljledjiagddojbeg)
 
 ## WebExtension.ORG
 
